@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+
+      width: 100%;
+      padding: 10px 30px 0 30px;
+
+
+
+    }
+
+    
+
+    .nav-div {
+      /* background-color: red; */
+      width: 100%;
+
+
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 20px;
+      text-transform: uppercase;
+    }
+
+    .nav ul {
+      display: flex;
+      justify-content: space-between;
+      width: 350px;
+      list-style: none;
+
+    }
+
+    .hero {
+      text-transform: uppercase;
+      text-align: center;
+      height: 50vh;
+      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    .sub-heading {
+      color: grey;
+      text-transform: capitalize;
+    }
+
+    .section-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+
+
+    }
+
+    .sub-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 0px;
+    }
+
+    .block {
+
+      /* background-color: pink; */
+      border: 1px solid black;
+      height: 45vh;
+      padding-top: 10px;
+    }
+
+    .block1 h1 {
+      font-size: 25px;
+      padding-bottom: 25px;
+
+
+
+
+    }
+
+    .block1-item a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+
+
+    }
+
+    .block1-item {
+      line-height: 10px;
+      padding-left: 20px;
+
+
+    }
+
+    .projects {
+      padding-left: 20px;
+    }
+
+    .block2 button {
+      color: #3582C9;
+      background: none;
+      border: none;
+      font-size: 15px;
+
+    }
+
+    .block2 h1 {
+      font-size: 25px;
+      padding-bottom: 10px;
+      margin-top: -35px;
+    }
+
+    .block2 p {
+      width: 65%;
+    }
+
+    .block2 {
+      padding-left: 20px;
+    }
+
+    .block3 ul {
+      list-style: none;
+      text-transform: capitalize;
+    }
+
+    .block3 ul li::before {
+      content: "\2212 ";
+    }
+
+    .block3 {
+      padding-left: 20px;
+      overflow-y: hidden;
+
+    }
+
+    .section3 h1 {
+      font-size: 25px;
+      padding-left: 20px;
+      margin: 20px;
+    }
+
+    .boxes-main {
+      display: flex;
+      width: 100%;
+      /* flex-basis: 20%; */
+      justify-content: center;
+      height: 20vh;
+      gap: 50px;
+     
+      margin-bottom: 200px;
+      /* border: 1px solid black; */
+
+
+    }
+
+    .box {
+      /* border: 1px solid red; */
+      width: 200px;
+      height: 150px;
+      border-radius: 17%;
+      border: 2px solid black;
+    }
+
+    .box1-cont {
+      padding-left: 10px;
+      padding-top: 15px;
+      text-transform: capitalize;
+    }
+
+    .box1-cont p:nth-of-type(2) {
+      margin-top: 5px;
+
+      color: grey;
+    }
+
+    .box1-cont p:nth-of-type(3) {
+      color: grey;
+    }
+
+    .footer{
+      /* background-color: black; */
+      /* color: white; */
+      text-align: center;
+      font-size: 30px;
+      height: 70px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav-div">
+      <nav class="nav">
+        <div class="nav-title">
+          <h1>tayyab rehman</h1>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li>home</li>
+            <li>projects</li>
+            <li>article</li>
+            <li>contact</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="heading">
+          <h1>frontend developer</h1>
+        </div>
+        <div class="sub-heading">html only with proper layout,no styling</div>
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="block block1">
+        <h1 class="projects">projects</h1>
+        <div class="block1-item">
+
+          <a href="">HTML ONLY PORTFOLIO </a>
+          <h1>_________________</h1>
+          <a href="">CALCULATOR</a>
+          <h1>_________________</h1>
+          <a href="">QUIZ APP</a>
+          <h1>_________________</h1>
+          <a href="">COUNTDOWN TIMER</a>
+          <h1>_________________</h1>
+          <a href="">PRODUCT UPCOMING PAGE</a>
+        </div>
+      </div>
+      <div class="block block2 sub-section">
+        <div>
+          <h1>Work Experiance</h1>
+          <p>roadmap.sh</p>
+          <p>solved all the frontend projects</p>
+          <button>visit my profile</button>
+        </div>
+        <div>
+          <h1>Open Source Work</h1>
+          <p>contrubute to 50 open source projects made by own projects with 200 github stars</p>
+          <button>visit my github profile</button>
+        </div>
+      </div>
+      <div class="block block3">
+        <h1>Education</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut ex sed quidem quas quisquam sequi./p>
+        <div>
+          <p style="padding: 10px 0;">Courses i took:</p>
+          <ul>
+            <li>object oriented programming</li>
+            <li>data structure and algorithm</li>
+            <li>web enginnering</li>
+            <li>artificial intelligence</li>
+            <li>human computer interaction</li>
+            <li>computer graphics</li>
+            <li>database menagement system</li>
+            <li>distributed menagement system</li>
+            <li>discreet methamathics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section3">
+      <h1>Reviews from my teachers</h1>
+      <div class="boxes-main">
+
+        <div class="boxes">
+          <div class="box">
+            <div class="box1-cont">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis!</p>
+              <p>john doe</p>
+              <p>assistant professor</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="box1-cont">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis!</p>
+              <p>john doe</p>
+              <p>assistant professor</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="box1-cont">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis!</p>
+              <p>john doe</p>
+              <p>assistant professor</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer">all rights reserved 2025</div>
+  </div>
+
+</body>
+
+</html>
